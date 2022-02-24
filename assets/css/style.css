@@ -107,6 +107,25 @@
     height: 500px;
 }
 
+.debug #team .title-team {
+    background-color: cadetblue;
+    height: 240px;
+}
+
+.debug #team .col-30 {
+    background-color: darkcyan;
+    height: 400px;
+}
+
+.debug #team .col-40 {
+    background-color: darkslateblue;
+    height: 400px;
+}
+
+.debug #team .col-50-50 {
+    border: 1px solid blue;
+}
+
 
 /* #endregion */
 
@@ -177,6 +196,11 @@
 
 .col-50 {
     width: 50%;
+}
+
+.col-50-50 {
+    width: 50%;
+    height: 50%;
 }
 
 .col-60 {
