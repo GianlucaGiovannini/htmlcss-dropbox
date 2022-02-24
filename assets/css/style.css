@@ -148,14 +148,16 @@ h4 {
 
 /* .debug #team .title-team {
     background-color: cadetblue;
-}
+} */
 
-.debug #team .col-30 {
+
+/* .debug #team .col-30 {
     background-color: darkcyan;
     height: 400px;
-}
+} */
 
-.debug #team .col-40 {
+
+/* .debug #team .col-40 {
     background-color: darkslateblue;
     height: 400px;
 } */
@@ -175,9 +177,10 @@ h4 {
 
 /* .debug #faq .title-faq {
     background-color: cornflowerblue;
-}
+} */
 
-.debug #faq .reply {
+
+/* .debug #faq .reply {
     background-color: darkseagreen;
 } */
 
@@ -330,6 +333,9 @@ h4 {
 
 /* #region main */
 
+
+/* #region hero */
+
 .bg-hero {
     width: 100%;
     background-color: var(--bg-hero);
@@ -338,6 +344,9 @@ h4 {
 .title-1 {
     width: 100%;
 }
+
+
+/* #endregion */
 
 
 /* #region plan */
@@ -356,14 +365,17 @@ h4 {
 }
 
 
-/* endregion */
+/* #endregion */
 
 
-/* operation */
+/* #region operation */
 
 .title-operation {
     margin-bottom: 40px;
 }
+
+
+/* #endregion */
 
 
 /* #region team */
@@ -495,6 +507,9 @@ h4 {
     width: 90%;
     padding: 45px 0;
 }
+
+
+/* #endregion */
 
 
 /* #endregion */
