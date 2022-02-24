@@ -18,6 +18,10 @@
     --border-bottom: #F0F0F1;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 
 /* #endregion */
 
@@ -149,10 +153,11 @@
 
 /* #endregion */
 
-.debug #site-footer .col-16 {
+
+/* .debug #site-footer .col-16 {
     background-color: paleturquoise;
     height: 300px;
-}
+} */
 
 
 /* #endregion */
@@ -268,6 +273,34 @@
     width: 70%;
     margin: 0 auto;
 }
+
+
+/* #region utility footer */
+
+footer h4 {
+    color: var(--color-white);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 26px;
+}
+
+footer ul.unstyle {
+    text-decoration: none;
+}
+
+footer ul.unstyle>li>a {
+    color: var(--color-white);
+    font-size: 13px;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+footer ul.unstyle>li>a:hover {
+    text-decoration: underline;
+}
+
+
+/* #endregion */
 
 
 /* #endregion */
