@@ -64,36 +64,47 @@
     background-color: palegreen;
 }
 
-.debug .container-center .title-1 {
+.debug #hero .title-1 {
     background-color: palevioletred;
     height: 250px;
 }
 
-.debug .container-center .col-40 {
+.debug #hero .col-40 {
     height: 442px;
     background-color: aqua;
 }
 
-.debug .container-center .col-60 {
+.debug #hero .col-60 {
     height: 442px;
     background-color: aquamarine;
 }
 
-.debug .container-center .title-plan {
+.debug #plan .title-plan {
     background-color: blanchedalmond;
     height: 200px;
 }
 
-.debug .container-center .col-30 {
+.debug #plan .col-30 {
     background-color: aliceblue;
     border: 1px solid black;
     height: 100vh;
 }
 
-.debug .container-center .col-100 {
+.debug #plan .col-100 {
     background-color: aliceblue;
-    height: 25vh;
+    height: 250px;
     border: 1px solid black;
+}
+
+.debug #operation .title-operation {
+    background-color: azure;
+    height: 100px;
+}
+
+.debug #operation .col-33 {
+    background-color: azure;
+    border: 1px solid black;
+    height: 500px;
 }
 
 
@@ -118,8 +129,16 @@
     padding-top: 150px;
 }
 
+.m-bottom70 {
+    margin-bottom: 70px;
+}
+
 .m-bottom100 {
     margin-bottom: 100px;
+}
+
+.m-top100 {
+    margin-top: 100px;
 }
 
 .row::after {
@@ -142,6 +161,10 @@
 
 .col-30 {
     width: 30%;
+}
+
+.col-33 {
+    width: 33.33%;
 }
 
 .col-39 {
@@ -200,6 +223,10 @@
 
 .title-plan {
     margin-bottom: 30px;
+}
+
+.title-operation {
+    margin-bottom: 40px;
 }
 
 
