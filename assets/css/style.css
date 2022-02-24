@@ -51,11 +51,11 @@
 /* #endregion */
 
 
-/* debug section */
+/* #region debug section */
 
 .debug .hero-section {
     background-color: paleturquoise;
-    height: 842px
+    height: 821px;
 }
 
 .debug .bg-hero {
@@ -63,7 +63,7 @@
 }
 
 .debug .container-center-1 {
-    background-color: palegreen;
+    background-color: trasparent;
 }
 
 .debug .container-center {
@@ -76,12 +76,12 @@
 }
 
 .debug #hero .col-40 {
-    height: 300px;
+    height: 350px;
     background-color: aqua;
 }
 
 .debug #hero .col-60 {
-    height: 442px;
+    height: 470px;
     background-color: aquamarine;
 }
 
@@ -146,6 +146,9 @@
     background-color: darkseagreen;
 }
 
+
+/* #endregion */
+
 .debug #site-footer .col-16 {
     background-color: paleturquoise;
     height: 300px;
@@ -178,7 +181,7 @@
 }
 
 .p-top {
-    padding-top: 150px;
+    padding-top: 100px;
 }
 
 .m-bottom50 {
