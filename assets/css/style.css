@@ -137,11 +137,12 @@ body {
     border: 1px solid blue;
 }
 
-.debug #business .col-50 {
+
+/* .debug #business .col-50 {
     background-color: #61082B;
     border: 1px solid blue;
     height: 280px;
-}
+} */
 
 
 /* .debug #faq .title-faq {
@@ -317,13 +318,30 @@ body {
 }
 
 
-/* business */
+/* #region business */
 
 #business {
     background-color: var(--bg-hero);
     color: var(--business-color);
-    padding: 100px 0;
+    padding: 130px 0;
 }
+
+#business h2 {
+    font-size: 38px;
+    font-weight: 900;
+}
+
+#business a {
+    background-color: var(--color-white);
+    color: var(--color-black);
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 5px 60px;
+}
+
+
+/* #endregion */
 
 
 /* #region faq */
