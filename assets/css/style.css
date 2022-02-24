@@ -70,9 +70,10 @@ body {
     background-color: transparent;
 }
 
-.debug .container-center {
+
+/* .debug .container-center {
     background-color: palegreen;
-}
+} */
 
 .debug #hero .title-1 {
     background-color: palevioletred;
@@ -142,13 +143,14 @@ body {
     height: 280px;
 }
 
-.debug #faq .title-faq {
+
+/* .debug #faq .title-faq {
     background-color: cornflowerblue;
 }
 
 .debug #faq .reply {
     background-color: darkseagreen;
-}
+} */
 
 
 /* #endregion */
@@ -275,34 +277,6 @@ body {
 }
 
 
-/* #region utility footer */
-
-footer h4 {
-    color: var(--color-white);
-    font-size: 18px;
-    font-weight: 500;
-    margin-bottom: 26px;
-}
-
-footer ul.unstyle {
-    text-decoration: none;
-}
-
-footer ul.unstyle>li>a {
-    color: var(--color-white);
-    font-size: 13px;
-    line-height: 30px;
-    text-decoration: none;
-}
-
-footer ul.unstyle>li>a:hover {
-    text-decoration: underline;
-}
-
-
-/* #endregion */
-
-
 /* #endregion */
 
 
@@ -352,15 +326,27 @@ footer ul.unstyle>li>a:hover {
 }
 
 
-/* faq */
+/* #region faq */
 
 .title-faq {
-    padding: 65px 0;
-}
-
-.reply {
     padding: 45px 0;
 }
+
+.title-faq h3 {
+    font-size: 32px;
+}
+
+.reply>select {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    width: 90%;
+    padding: 45px 0;
+}
+
+
+/* #endregion */
 
 
 /* #endregion */
@@ -384,6 +370,28 @@ footer ul.unstyle>li>a:hover {
     color: var(--colore-nazione);
     background-color: transparent;
     border: none;
+}
+
+footer h4 {
+    color: var(--color-white);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 26px;
+}
+
+footer ul.unstyle {
+    text-decoration: none;
+}
+
+footer ul.unstyle>li>a {
+    color: var(--color-white);
+    font-size: 13px;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+footer ul.unstyle>li>a:hover {
+    text-decoration: underline;
 }
 
 
