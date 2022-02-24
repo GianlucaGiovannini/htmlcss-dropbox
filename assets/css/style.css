@@ -60,6 +60,10 @@
     height: 82vh;
 }
 
+.debug .container-center-1 {
+    background-color: palegreen;
+}
+
 .debug .container-center {
     background-color: palegreen;
 }
@@ -126,6 +130,12 @@
     border: 1px solid blue;
 }
 
+.debug #business .col-50 {
+    background-color: #61082B;
+    border: 1px solid blue;
+    height: 280px;
+}
+
 
 /* #endregion */
 
@@ -134,6 +144,10 @@
 
 .p-relative {
     position: relative;
+}
+
+.text-right {
+    text-align: right;
 }
 
 .m-5 {
@@ -211,8 +225,13 @@
     width: 100%;
 }
 
-.container-center {
+.container-center-1 {
     width: 80%;
+    margin: 0 auto;
+}
+
+.container-center {
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -249,8 +268,20 @@
     margin-bottom: 30px;
 }
 
+
+/* operation */
+
 .title-operation {
     margin-bottom: 40px;
+}
+
+
+/* business */
+
+#business {
+    background-color: var(--bg-hero);
+    color: var(--business-color);
+    padding: 100px 0;
 }
 
 
