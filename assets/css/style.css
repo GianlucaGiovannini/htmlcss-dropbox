@@ -1,5 +1,11 @@
 /* #region common */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --color-black: #000000;
     --color-white: #FFFFFF;
@@ -10,11 +16,63 @@
     --bg-general: #B4D0E7;
 }
 
+.row [class^="col"] {
+    float: left;
+}
+
+.debug .navbar {
+    background-color: grey;
+}
+
+.debug .navbar .col-15 {
+    background-color: green;
+    height: 75px;
+}
+
+.debug .navbar .col-35 {
+    background-color: blue;
+    height: 75px;
+}
+
+.debug .navbar .col-50 {
+    background-color: yellow;
+    height: 75px;
+}
+
 
 /* #endregion */
 
 
 /* #region utility */
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-15 {
+    width: 15%;
+}
+
+.col-35 {
+    width: 35%;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+
+/* #endregion */
+
+
+/* #region header */
+
+.navbar {
+    background-color: var(--color-white);
+    padding: 10px 20px;
+}
 
 
 /* #endregion */
