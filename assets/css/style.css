@@ -626,13 +626,15 @@ img {
     padding: 45px 0;
 }
 
-.reply>select {
+.reply [class^="col"] {
     font-size: 16px;
     font-weight: bold;
-    background-color: transparent;
-    border: none;
     width: 90%;
     padding: 45px 0;
+}
+
+.reply>.col-40 {
+    line-height: 112px;
 }
 
 
@@ -691,4 +693,10 @@ a[class^="btn"]:hover {
 
 #contact_partner .col-40 a:hover {
     box-shadow: 0 0 0 4px var(--btn-bg-color);
+}
+
+.type-function>span:first-child {
+    display: inline-block;
+    float: left;
+    margin: 0 5px 10px 0;
 }
