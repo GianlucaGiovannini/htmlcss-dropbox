@@ -291,12 +291,26 @@ img {
 }
 
 #jumbotron .col-40 {
-    padding-right: 180px;
+    padding-right: 105px;
 }
 
 #jumbotron .col-40>p {
     font-size: 20px;
     font-weight: 500;
+}
+
+.btn-jumbo {
+    margin: 40px 0;
+}
+
+.btn-jumbo>div {
+    font-size: 16x;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+#jumbotron i {
+    font-size: 50px;
 }
 
 
