@@ -674,6 +674,9 @@ footer ul.unstyle>li>a {
 
 /* #endregion */
 
+
+/* #region hover */
+
 ul.unstyle>li>a:hover {
     text-decoration: underline;
 }
@@ -695,3 +698,6 @@ a[class^="btn"]:hover {
     float: left;
     margin: 0 5px 10px 0;
 }
+
+
+/* #endregion */
