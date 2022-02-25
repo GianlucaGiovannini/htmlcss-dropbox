@@ -51,7 +51,7 @@ h3 {
 }
 
 h4 {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 500;
 }
 
@@ -261,6 +261,10 @@ img {
 .navbar ul.unstyle>li>a {
     color: var(--color-black);
     text-decoration: none;
+}
+
+.navbar li>a:hover a {
+    text-decoration: underline;
 }
 
 
@@ -590,6 +594,14 @@ img {
     padding: 5px 60px;
 }
 
+#business .title-business {
+    padding-right: 100px;
+}
+
+#business h2 {
+    font-size: 42px;
+}
+
 
 /* #endregion */
 
@@ -648,9 +660,21 @@ footer ul.unstyle>li>a {
     text-decoration: none;
 }
 
-footer ul.unstyle>li>a:hover {
+
+/* #endregion */
+
+ul.unstyle>li>a:hover {
     text-decoration: underline;
 }
 
+a[class^="btn"]:hover {
+    box-shadow: 0 0 10px var(--color-black);
+}
 
-/* #endregion */
+#business .col-50.text-right a:hover {
+    box-shadow: 0 0 0 4px var(--business-color);
+}
+
+#contact_partner .col-40 a:hover {
+    box-shadow: 0 0 0 4px var(--btn-bg-color);
+}
