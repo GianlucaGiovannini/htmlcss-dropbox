@@ -35,6 +35,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    position: relative;
 }
 
 h1 {
@@ -230,6 +231,13 @@ img {
 
 
 /* #region header */
+
+#site-header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
 
 .navbar {
     background-color: var(--color-white);
