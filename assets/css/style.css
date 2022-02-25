@@ -629,12 +629,7 @@ img {
 .reply [class^="col"] {
     font-size: 16px;
     font-weight: bold;
-    width: 90%;
     padding: 45px 0;
-}
-
-.reply>.col-40 {
-    line-height: 112px;
 }
 
 
