@@ -211,6 +211,19 @@ h4 {
     height: 400px;
 }
 
+.container-center-1 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container-center {
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+/* #region margin padding */
+
 .m-right3 {
     margin-right: 3%;
 }
@@ -250,6 +263,12 @@ h4 {
 .border-bottom {
     border-bottom: 1px solid var(--border-bottom);
 }
+
+
+/* #endregion */
+
+
+/* #region cols */
 
 .row::after {
     content: "";
@@ -306,15 +325,8 @@ h4 {
     width: 100%;
 }
 
-.container-center-1 {
-    width: 80%;
-    margin: 0 auto;
-}
 
-.container-center {
-    width: 70%;
-    margin: 0 auto;
-}
+/* #endregion */
 
 
 /* #endregion */
