@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-:root {
+ :root {
     --color-black: #000000;
     --color-white: #FFFFFF;
     --btn-bg-color: #0061FF;
@@ -397,12 +397,13 @@ li.dropdown a {
 .jumbotron-2 .row .col-30>h1 {
     font-size: 60px;
     line-height: 60px;
-    margin: 50px 0 80px;
+    margin: 30px 0 80px;
     padding: 0 20px;
 }
 
 .jumbotron-2 .btn {
-    padding: 25px 355px 25px 10px;
+    font-size: 20px;
+    padding: 25px 320px 25px 10px;
 }
 
 .jumbotron-2 .row .col-30>.btn-jumbo {
@@ -413,7 +414,7 @@ li.dropdown a {
 .jumbotron-2 .row .col-30>.btn-jumbo>div {
     margin-top: 35px;
     font-size: 13px;
-    padding: 10px 10px 0;
+    padding: 30px 10px 0;
 }
 
 .why-business {
@@ -427,7 +428,7 @@ li.dropdown a {
 
 .jumbotron-2 .col-70 {
     background-color: var(--bg-jumbo);
-    height: 624px;
+    height: 630px;
 }
 
 .jumbotron-2 .img-jumbo {
@@ -437,6 +438,42 @@ li.dropdown a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+
+/* #endregion */
+
+
+/* #region plan-business */
+
+.title-plan h2 {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.plan-choise {
+    font-size: 20px;
+}
+
+.plan-choise input {
+    appearance: auto;
+    width: 20px;
+    height: 20px;
+    border: solid 1px black;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.plan-choise span:first-child {
+    margin-right: 30px;
+}
+
+.plan-business .row>.col-50 {
+    height: 800px;
+    border: 1px solid var(--bg-jumbo);
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.5);
+    margin-top: 50px;
 }
 
 
