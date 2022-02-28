@@ -261,8 +261,8 @@ a[class^="btn"]:hover {
     width: 60%;
 }
 
-.col-65 {
-    width: 65%;
+.col-70 {
+    width: 70%;
 }
 
 .col-100 {
@@ -389,12 +389,12 @@ li.dropdown a {
 
 /* #region Jumbotron-2 */
 
-.jumbotron-2 .row .col-35 {
+.jumbotron-2 .row .col-30 {
     font-weight: 500;
     background-color: #e9e7e7;
 }
 
-.jumbotron-2 .row .col-35>h1 {
+.jumbotron-2 .row .col-30>h1 {
     font-size: 60px;
     line-height: 60px;
     margin: 50px 0 80px;
@@ -402,15 +402,15 @@ li.dropdown a {
 }
 
 .jumbotron-2 .btn {
-    padding: 25px 460px 25px 10px;
+    padding: 25px 355px 25px 10px;
 }
 
-.jumbotron-2 .row .col-35>.btn-jumbo {
+.jumbotron-2 .row .col-30>.btn-jumbo {
     margin: 50px 0;
     padding: 0 20px;
 }
 
-.jumbotron-2 .row .col-35>.btn-jumbo>div {
+.jumbotron-2 .row .col-30>.btn-jumbo>div {
     margin-top: 35px;
     font-size: 13px;
     padding: 10px 10px 0;
@@ -425,14 +425,14 @@ li.dropdown a {
     padding: 30px;
 }
 
-.jumbotron-2 .col-65 {
+.jumbotron-2 .col-70 {
     background-color: var(--bg-jumbo);
     height: 624px;
 }
 
 .jumbotron-2 .img-jumbo {
-    width: 70%;
-    height: 90%;
+    width: 940px;
+    height: 550px;
     position: absolute;
     top: 50%;
     left: 50%;
