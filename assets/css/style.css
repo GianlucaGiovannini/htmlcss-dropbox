@@ -764,6 +764,20 @@ li.dropdown a {
 }
 
 
+/* accordion */
+
+.accordion-item-content {
+    height: 0;
+    overflow: hidden;
+    font-weight: 500;
+}
+
+.accordion-item:hover .accordion-item-content {
+    height: 5rem;
+    padding: 0.5rem 7rem 1.5rem 0.5rem;
+}
+
+
 /* #endregion */
 
 
