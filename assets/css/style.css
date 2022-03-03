@@ -75,7 +75,11 @@ img {
 /* #region hover */
 
 a[class^="btn"]:hover {
-    box-shadow: 0 0 10px var(--color-black);
+    box-shadow: 0px 0px 2px 2px var(--bg-florida);
+}
+
+nav ul.unstyle>li.dropdown:hover {
+    background-color: rgb(220 220 220);
 }
 
 .navbar .col-50>ul>li>a:hover {
@@ -88,6 +92,10 @@ a[class^="btn"]:hover {
 
 #contact_partner .col-40 a:hover {
     box-shadow: 0 0 0 4px var(--btn-bg-color);
+}
+
+footer ul.unstyle>li:hover a {
+    text-decoration: underline;
 }
 
 
@@ -340,6 +348,7 @@ a[class^="btn"]:hover {
 
 .dropdown-content {
     padding: 10px;
+    background-color: rgb(220, 220, 220);
 }
 
 .dropdown-content li {
@@ -363,7 +372,7 @@ li .dropdown-content {
     font-size: 12px;
     width: 100%;
     position: absolute;
-    background-color: var(--color-white);
+    background-color: rgb(220 220 220);
     z-index: 1;
 }
 
